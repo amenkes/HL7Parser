@@ -1,0 +1,100 @@
+﻿// PersonalInformation - finish  building out order properties to test segment population
+
+//Post processing of non-standard providers
+
+// Performance on mapping to objects
+-- taking 3 seconds to parse everything
+
+// Go through, finish other TODO items
+
+// Implement item Abdiel sent via email (check TODO email folder) - import base64 encoded documents
+
+// Incomplete Trigger events, interfaces, base classes and factory
+
+// Incomplete table lists/validations
+
+// Implement check for RestrictToLookup
+
+// BaseSegment.MessageHeader null. Remove? needed?~
+
+PIN_I07 : UnsolicitedInsuranceInformation
+PPG_PCG : PCPathwayGoalOrientedAdd
+PPG_PCH : PCPathwayGoalOrientedUpdate
+PPG_PCJ : PCPathwayGoalOrientedDelete
+PPP_PCB : PCPathwayProblemOrientedAdd
+PPP_PCC : PCPathwayProblemOrientedUpdate
+PPP_PCD : PCPathwayProblemOrientedDelete
+PPR_PC1 : PCProblemAdd
+PPR_PC2 : PCProblemUpdate
+PPR_PC3 : PCProblemDelete
+PPT_PCL : PCPathwayGoalOrientedQueryResponse
+PPV_PCA : PCGoalResponse
+PRR_PC5 : PCProblemResponse
+PTR_PCF : PCPathwayProblemOrientedQueryResponse
+QBP_E03 : HealthCareServicesInvoiceStatus
+QBP_E22 : AuthorizationRequestStatus
+QBP_K13 : QueryByParameter
+QBP_Q11 : QueryByParameterRequestingAnRSPSegmentPatternResponse
+QBP_Q13 : QueryByParameterRequestingAnRTBTabularResponse
+QBP_Q15 : QueryByParameterRequestingAnRDYDisplacyResponse
+QBP_Q21 : GetPersonDemographics
+QBP_Q22 : FindCandidates
+QBP_Q23 : GetCorrescpondingIdentifiers
+QBP_Q24 : AllocateIdentifiers
+QBP_Q25 : PersonnelInformationBySegmentQuery
+QBP_Q31 : QBPQueryDispenseHistory
+QBP_Q32 : FindCandidatesIncludingVisitInformation
+QBP_Z73 : InformationAboutPhoneCalls
+QBP_Z75 : TabularPatientList
+QBP_Z77 : TabularPatientList
+QBP_Z79 : DispenseInformation
+QBP_Z81 : DispenseHistory
+QBP_Z85 : PharmacyInformationComprehensive
+QBP_Z87 : DispenseInformation
+QBP_Z89 : LabResultsHistory
+QBP_Z91 : WhoAmI
+QBP_Z93 : TabularDispenseHistory
+QBP_Z95 : TabularDispenseHistory
+QBP_Z97 : DispenseHistory
+QBP_Z99 : WhoAmI
+QSX_J02 : CancelSubscriptionAcknowledge
+QVR_Q17 : QueryForPreviousEvents
+RCI_I05 : ReturnClinicalInformation
+RDR_RDR : PharmacyTreatmentDispenseInformation
+REF_I12 : PatientReferral
+REF_I13 : ModifyPatientReferral
+REF_I14 : CancelPatientReferral
+REF_I15 : RequestPatientReferralStatus
+RER_RER : PharmacyTreatmentEncodedOrderInformation
+RRD_O14 : PharmacyTreatmentDispenseAcknowledgment
+RRE_O12 : PharmacyTreatmentEncodedOrderAcknowledgment
+RRE_O26 : PharmacyTreatmentRefillAuthorizationAcknowledgement
+RSP_K11 : SegmentPatternResponseInResponseToQBPQ11
+RSP_K21 : GetPersonDemographicsResponse
+RSP_K22 : FindCandidatesResponse
+RSP_K23 : GetCorrespondingIdentifiersResponse
+RSP_K24 : AllocateIdentifiersResponse
+RSP_K25 : PersonnelInformationBySegmentResponse
+RSP_K31 : DispenseHistoryResponse
+RSP_K32 : FindCandidatesIncludingVisitInformationResponse
+RSP_Q11 : SegmentPatternResponse
+RSP_Z82 : DispenseHistoryResponse
+RSP_Z84 : WhoAmIResponse
+RSP_Z86 : PharmacyInformationComprehensiveResponse
+RSP_Z88 : DispenseInformationResponse
+RSP_Z90 : LabResultsHistoryResponse
+RTB_K13 : TabularResponseInResponseToQBPQ13
+RTB_Z74 : InformationAboutPhoneCallsResponse
+RTB_Z76 : TabularPatientListResponse
+RTB_Z78 : TabularPatientListResponse
+RTB_Z92 : WhoAmIResponse
+RTB_Z94 : TabularDispenseHistoryResponse
+RTB_Z96 : TabularDispenseHistoryResponse
+SCN_S37 : NotificationOfAntiMicrobialDeviceCycleData
+SDN_S36 : NotificationOfAntiMicrobialDeviceData
+SDR_S31 : RequestAntiMicrobialDeviceData
+SLN_S34 : NotificationOfSterilizationLot
+SLN_S35 : NotificationOfSterilizationLotDeletion
+SLR_S28 : RequestNewSterilizationLot
+SLR_S29 : RequestSterilizationLotDeletion
+SMD_S32 : RequestAntiMicrobialDeviceCycleData

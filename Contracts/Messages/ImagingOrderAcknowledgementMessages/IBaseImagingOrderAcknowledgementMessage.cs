@@ -1,0 +1,9 @@
+using HL7Data.Contracts.Base;
+
+namespace HL7Data.Contracts.Messages.ImagingOrderAcknowledgementMessages
+{
+    //ORI_
+    public interface IBaseImagingOrderAcknowledgementMessage : IBaseMessage
+    {
+    }
+}
